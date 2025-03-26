@@ -8,8 +8,6 @@ module.exports = defineConfig({
       viewportWidthBreakpoint: 768,
     },
     defaultCommandTimeout : 9000,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
   },
+  projectId: '1hn979'
 })
