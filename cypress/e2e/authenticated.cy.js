@@ -35,8 +35,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
 
   it('logs out', { tags: '@desktop-and-tablet' }, () => { //tags - cypress grep
     cy.visit('/')
-    // cy.wait('@getNotes')
-    cy.wait(2000)
+    cy.wait('@getNotes')
 
     //if para validar o viewPort, pois, caso ele seja menor que uma dimensão, o link de logout fica escondido em um menu
     // if (Cypress.config('viewportWidth') < Cypress.env('viewportWidthBreakpoint')) {
