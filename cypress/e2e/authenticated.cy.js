@@ -1,4 +1,6 @@
 import { faker } from '@faker-js/faker/locale/en'
+/// <reference path="../support/commands.d.ts" />
+
 
 describe('Scenarios where authentication is a pre-condition', () => {
   beforeEach(() => {

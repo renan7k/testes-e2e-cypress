@@ -1,7 +1,7 @@
 {
   "name": "testes-e2e-cypress",
   "version": "1.0.0",
-  "description": "TBD.",
+  "description": "Projeto para praticar testes automatizados com cypress usando diversas bibliotecas, e configurando execução no github actions",
   "main": "cypress.config.js",
   "scripts": {
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
